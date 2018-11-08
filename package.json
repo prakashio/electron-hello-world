@@ -1,0 +1,14 @@
+{
+  "name": "hello-electron",
+  "version": "1.0.0",
+  "description": "Basic electron app for hello word",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Prakash",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.8"
+  }
+}

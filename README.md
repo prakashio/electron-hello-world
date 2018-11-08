@@ -11,10 +11,12 @@ First we need to install [Node.js](https://nodejs.org/en/) So go ahead and do th
 ## Let's Start
 ##### Folder Structure
 As far as development is concerned, an Electron application is essentially a Node.js application. The starting point is a package.json that is identical to that of a Node.js module. A most basic Electron app would have the following folder structure:
-###### your-app/
+```
+your-app/
 ├── package.json
 ├── main.js
 └── index.html
+```
 
 #### 1. Initialize Node
 Create a new empty folder for your new Electron application. Open up your command line client and run npm init. npm will guide you through creating a basic package.json file. The script specified by the main field is the startup script of your app.
